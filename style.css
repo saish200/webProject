@@ -1,0 +1,82 @@
+
+p{
+color: peru;
+}
+
+
+.header{
+    border: groove;
+    background-color: rgb(192, 124, 21);
+    display: flex;
+    justify-content:space-around;
+    border: double ;
+   
+}
+.menu{
+    font-size: 20px;
+    color: gold;
+    background-color: rgb(173, 173, 97);
+    display: flex;
+    flex-direction:column;
+   
+
+   
+}
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+ justify-content: space-evenly;
+    background-color: rgb(218, 216, 214);
+    
+    
+    
+}
+.item {
+ 
+    font-size: 17px;
+   display: flex;
+   flex-direction: column;
+
+background-color: rgb(253, 252, 250);
+color: rgb(238, 27, 27);
+border: dotted;
+opacity: 1;
+box-shadow: 5px 5px 3px 1px #999
+
+ 
+    
+
+
+
+}
+.item1 {
+    color: gray;
+    background-color: wheat;
+}
+.item :hover{
+    color: blue;
+}
+body{
+    background-color: #8f587f;
+   
+
+}
+.menu a {
+    background-color: gold;
+    margin: 30px;
+    text-decoration: none;
+    border: solid;
+}
+
+.item a:hover{
+    opacity: 0.5;
+}
+
+a:link{
+    color:white;
+}
+a:visited{
+    color: white;
+}
+
+
